@@ -1,0 +1,2 @@
+{:+ {:app [(:lt.objs.plugins/load-js "gooey_compiled.js")]
+     :gooey.hello [:lt.plugins.gooey/on-close-destroy]}}

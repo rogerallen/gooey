@@ -1,0 +1,6 @@
+{:name "gooey"
+ :version "0.0.1"
+ :author "Roger Allen"
+ :source "http://github.com/rogerallen/gooey"
+ :desc "A GUI for lighttable"
+ :behaviors "gooey.behaviors"}
