@@ -9,10 +9,7 @@ goog.require('lt.objs.tabs');
 goog.require('lt.objs.tabs');
 goog.require('lt.object');
 goog.require('lt.object');
-lt.plugins.gooey.load_script = (function load_script(url){var script = document.createElement("script");lt.util.dom.attr.call(null,script,new cljs.core.PersistentArrayMap(null, 2, [new cljs.core.Keyword(null,"src","src",1014018390),url,new cljs.core.Keyword(null,"type","type",1017479852),"text/javascript"], null));
-return lt.util.dom.append.call(null,lt.util.dom.$.call(null,new cljs.core.Keyword(null,"head","head",1017102674)),script);
-});
-lt.plugins.gooey.main_panel = (function main_panel(this$){var e__10057__auto__ = crate.core.html.call(null,new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"h1","h1",1013907515),"gooey 3"], null));var seq__10169_10175 = cljs.core.seq.call(null,cljs.core.partition.call(null,2,new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"div#panel","div#panel",1723248388)], null)], null)));var chunk__10170_10176 = null;var count__10171_10177 = 0;var i__10172_10178 = 0;while(true){
+lt.plugins.gooey.main_panel = (function main_panel(this$){var e__10057__auto__ = crate.core.html.call(null,new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"h1","h1",1013907515),"gooey alpha"], null));var seq__10169_10175 = cljs.core.seq.call(null,cljs.core.partition.call(null,2,new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"div#panel","div#panel",1723248388)], null)], null)));var chunk__10170_10176 = null;var count__10171_10177 = 0;var i__10172_10178 = 0;while(true){
 if((i__10172_10178 < count__10171_10177))
 {var vec__10173_10179 = cljs.core._nth.call(null,chunk__10170_10176,i__10172_10178);var ev__10058__auto___10180 = cljs.core.nth.call(null,vec__10173_10179,0,null);var func__10059__auto___10181 = cljs.core.nth.call(null,vec__10173_10179,1,null);lt.util.dom.on.call(null,e__10057__auto__,ev__10058__auto___10180,func__10059__auto___10181);
 {

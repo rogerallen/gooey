@@ -5,14 +5,8 @@
             [lt.util.dom :as dom])
   (:require-macros [lt.macros :refer [defui behavior]]))
 
-(defn load-script [url]
-  (let [script (js/document.createElement "script")]
-    (dom/attr script {:src url
-                      :type "text/javascript"})
-    (dom/append (dom/$ :head) script)))
-
 (defui main-panel [this]
-  [:h1 "gooey 3"]
+  [:h1 "gooey alpha"]
   [:div#panel])
 
 ;;    var a = new Interface.Panel({
